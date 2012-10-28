@@ -1,7 +1,4 @@
 <?php
-require_once "sfYaml.php";
-require_once "YamlParserException.php";
-
 class YamlParser 
 {
     public function load($filePath) {

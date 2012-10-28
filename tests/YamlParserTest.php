@@ -1,7 +1,7 @@
 <?php
-require_once "YamlParser.php";
+require_once "../vendor/autoload.php";
 
-class yamlParserTest extends PHPUnit_Framework_TestCase
+class YamlParserTest extends PHPUnit_Framework_TestCase
 {
     private $yamlParser;
 
